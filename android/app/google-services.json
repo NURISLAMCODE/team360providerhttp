@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "865037123718",
+    "project_id": "team360-gs",
+    "storage_bucket": "team360-gs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865037123718:android:baaaed5b371ddf395bd107",
+        "android_client_info": {
+          "package_name": "com.team360"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865037123718-730tulalrrmpfaltdrv1vkg3f5daq7ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrJpU5td1g105zHN55M3fphmF336l1nKM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865037123718-730tulalrrmpfaltdrv1vkg3f5daq7ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

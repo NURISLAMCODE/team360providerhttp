@@ -1,0 +1,82 @@
+name: team360
+description: Team360 Mobile Application.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.11+12
+
+environment:
+  sdk: ">=3.2.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons:
+  provider:
+  logger:
+  fluttertoast:
+  #cached_network_image: ^3.2.1
+  shared_preferences:
+  #shimmer: ^2.0.0
+  url_launcher:
+  permission_handler:
+  intl:
+  image_picker:
+  package_info_plus:
+  firebase_core:
+  firebase_analytics:
+  firebase_messaging:
+  flutter_local_notifications:
+  responsive_sizer:
+  smooth_page_indicator:
+  otp_text_field:
+  http:
+  dotted_border:
+  custom_top_navigator:
+  google_maps_flutter:
+  geolocator:
+  carousel_slider:
+  file_picker:
+  flutter_image_compress: ^2.1.0
+  #image_compression_flutter: ^1.0.3
+  #path: ^1.8.2
+  open_file:
+  path_provider:
+  flutter_widget_from_html_core:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+  change_app_package_name:
+  flutter_launcher_icons:
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo1.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/images/
+#   - assets/icons/
+  fonts:
+     - family: latoBold
+       fonts:
+         - asset: assets/font/Lato-Bold.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+     - family: latoSemiBold
+       fonts:
+         - asset: assets/font/Lato-Semibold.ttf
+     - family: latoRagular
+       fonts:
+          - asset: assets/font/Lato-Regular.ttf
+     - family: latoThini
+       fonts:
+         - asset: assets/font/Lato-Thin.ttf
+     - family: FBBold
+       fonts:
+         - asset: assets/font/CalifornianFBBold.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
